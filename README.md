@@ -4,13 +4,10 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Layout 1 Form :
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot 2024-03-15 215136](https://github.com/Aisyahaf/FaseOne_061/assets/115075739/3dc0653b-bf7f-45b1-8004-b35101f0a3da)
+Layout 2 Data Makanan :
+![Screenshot 2024-03-15 215416](https://github.com/Aisyahaf/FaseOne_061/assets/115075739/d0e750aa-94ee-4fe7-a0ca-01f6f3a93c95)
+layout 3 Detail Makanan :
+![Screenshot 2024-03-15 215539](https://github.com/Aisyahaf/FaseOne_061/assets/115075739/73a64d0e-cb40-4637-bd0c-b90ac604bf6d)
