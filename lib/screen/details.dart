@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:ucp1_dataform/screen/dataform.dart';
+import 'package:ucp1_dataform/widget/footer_detail.dart';
 
 class DetailScreen extends StatelessWidget {
   const DetailScreen(
@@ -45,6 +47,15 @@ class DetailScreen extends StatelessWidget {
                   height: 15,
                 ),
                 Text("Dessert : $dessert"),
+                SizedBox(
+                  height: 15,
+                ),
+                FooterDetail(onPressedDetail: () {
+                  Navigator.pushAndRemoveUntil(
+                      context,
+                      MaterialPageRoute(builder: (context) => FormScreen()),
+                      (route) => false);
+                })
               ],
             ),
           ),
