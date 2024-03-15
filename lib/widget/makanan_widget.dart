@@ -21,39 +21,40 @@ class _MakananWidgetState extends State<MakananWidget> {
   @override
   Widget build(BuildContext context) {
     return Form(
+        key: widget.formKey,
         child: Column(
-      children: [
-        TextFormField(
-          controller: widget.makanan,
-          keyboardType: TextInputType.text,
-          decoration: const InputDecoration(
-              labelText: "Makanan",
-              hintText: "Masukkan Nama Makanan",
-              prefixIcon: Icon(Icons.fastfood_rounded)),
-        ),
-        SizedBox(
-          height: 25,
-        ),
-        TextFormField(
-          controller: widget.minuman,
-          keyboardType: TextInputType.text,
-          decoration: const InputDecoration(
-              labelText: "Minuman",
-              hintText: "Masukkan Nama Minuman",
-              prefixIcon: Icon(Icons.local_drink_rounded)),
-        ),
-        SizedBox(
-          height: 25,
-        ),
-        TextFormField(
-          controller: widget.dessert,
-          keyboardType: TextInputType.text,
-          decoration: const InputDecoration(
-              labelText: "Dessert",
-              hintText: "Masukkan Nama Dessert",
-              prefixIcon: Icon(Icons.cake_rounded)),
-        ),
-      ],
-    ));
+          children: [
+            TextFormField(
+              controller: widget.makanan,
+              keyboardType: TextInputType.text,
+              decoration: const InputDecoration(
+                  labelText: "Makanan",
+                  hintText: "Masukkan Nama Makanan",
+                  prefixIcon: Icon(Icons.fastfood_rounded)),
+            ),
+            SizedBox(
+              height: 25,
+            ),
+            TextFormField(
+              controller: widget.minuman,
+              keyboardType: TextInputType.text,
+              decoration: const InputDecoration(
+                  labelText: "Minuman",
+                  hintText: "Masukkan Nama Minuman",
+                  prefixIcon: Icon(Icons.local_drink_rounded)),
+            ),
+            SizedBox(
+              height: 25,
+            ),
+            TextFormField(
+              controller: widget.dessert,
+              keyboardType: TextInputType.text,
+              decoration: const InputDecoration(
+                  labelText: "Dessert",
+                  hintText: "Masukkan Nama Dessert",
+                  prefixIcon: Icon(Icons.cake_rounded)),
+            ),
+          ],
+        ));
   }
 }
